@@ -78,16 +78,18 @@ header.sp{
 }
 .breadcrumb{
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px 0;
   list-style: none;
   padding: 0;
   margin: 20px 0 40px;
   font-size: .75rem;
 }
-.breadcrumb_item+.breadcrumb_item{
-  padding: 0 0 0 22px;
+.breadcrumb_item:not(:last-of-type){
+  padding: 0 22px 0 0;
   position: relative;
 }
-.breadcrumb_item+.breadcrumb_item::before{
+.breadcrumb_item:not(:last-of-type)::after{
   content: "";
   display: block;
   width: 8px;
@@ -96,7 +98,7 @@ header.sp{
   border-right: 1px solid #d2d7e5;
   rotate: 45deg;
   position: absolute;
-  left: 6px;
+  right: 10px;
   top: 50%;
   translate: 0 -50%;
 }
