@@ -680,7 +680,7 @@ footer{
   backdrop-filter: blur(10px);
 }
 .loaded .mv::before{
-  animation: mv_blur .3s ease-out forwards;
+  animation: mv_blur .5s ease-out forwards;
 }
 .mv::after{
   opacity: 0;
