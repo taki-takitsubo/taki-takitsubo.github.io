@@ -411,6 +411,7 @@ a:hover{
 }
 .takiblog_list_item_img>img{
   transition: .3s;
+  aspect-ratio: 16/9;
 }
 .takiblog_list_item>a:hover .takiblog_list_item_img>img{
   scale: 1.1;
