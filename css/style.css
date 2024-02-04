@@ -834,7 +834,7 @@ footer{
     grid-template-columns: auto 1fr;
   }
   .takiblog_list{
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,minmax(0,1fr));
   }
   .top_photo_gallery{
     grid-template-columns: 2fr 1fr 1fr;
@@ -924,3 +924,5 @@ footer{
     animation-delay: .6s;
   }
 }
+
+
