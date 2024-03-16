@@ -73,8 +73,12 @@ header.sp{
 .page_news .header_sp_link_icon_news>svg *{
   stroke: none;
 }
+.page_news .header_sp_link_icon_news>svg .fold{
+  stroke: var(--taki-green);
+  fill: #fff;
+}
 .page_news .header_sp_link_icon_news>svg>.border{
-  stroke: #fff;
+  fill: #fff;
 }
 .breadcrumb{
   display: flex;
@@ -926,5 +930,3 @@ footer{
     animation-delay: .6s;
   }
 }
-
-
